@@ -1,0 +1,97 @@
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #fd74eb;
+}
+header{
+	width: 100%;
+	min-height: 100vh;
+	font-family: sans-serif;
+	position: relative;
+}
+nav{
+	position: absolute;
+	top:0;
+	z-index: 99;
+	width: 100%;
+	height: 100px;
+	background: #ff00dd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 70px;
+}
+
+.logo{
+	font-size: 2em;
+	letter-spacing: 2px;`
+}
+.logo span{
+	color: #fff;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.menu a:first-child{
+    color: #fff;
+
+}
+.menu a:hover{
+    color: #fff;
+
+}
+.icons i{
+	margin: 0 10px;
+	font-size: 20px;
+	color: black;
+	padding: 15px;
+	border-radius: 8px;
+	border:1px solid rgb(255, 255, 255);
+	transition: 0.4s;
+    background-color: #fff;
+}
+.icons i:hover{
+	color: #fff;
+	background: #cc2eb7;
+	color: white;
+}
+#room{
+	max-width: 900px;
+	position: absolute;
+	bottom: 17%;
+	right: 10%;
+    border-radius: 5px;
+
+}
+.htext{
+	position: absolute;
+	top:30%;
+	left: 5%;
+	max-width: 600px;
+	z-index: 99;
+	backdrop-filter:blur(10px);
+}
+.htext h1{
+	font-size: 4em;
+	font-family: 'Poppins', sans-serif;
+}
+.htext h1 span{
+	color:  #fff;
+}
+
+
+
+
+
+
+
+
